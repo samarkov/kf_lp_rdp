@@ -1,0 +1,13 @@
+@import "../fonts.css";
+
+.button {
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.56em 5.9em 1em 5.95em;
+    background-color: #E3B873;
+    box-shadow: 0 0.3em  1.25em rgba(227,184,115,0.1);
+}
