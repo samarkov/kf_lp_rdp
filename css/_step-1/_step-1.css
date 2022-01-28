@@ -1,0 +1,14 @@
+@import "../fonts.css";
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4em;
+    align-content: center;
+}
+
+.f {
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 1.4rem;
+}

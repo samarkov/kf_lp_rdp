@@ -1,0 +1,22 @@
+@import "../fonts.css";
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    max-width: 10rem;
+}
+
+.input-label {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.8rem;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.input-field {
+    border: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.8rem;
+    text-decoration-color: #363636;
+}

@@ -1,0 +1,10 @@
+@import "../fonts.css";
+
+.subtittle {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    display: inline-block;
+    max-width: 10em;
+    text-align: center;
+}
