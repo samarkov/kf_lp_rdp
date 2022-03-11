@@ -1,0 +1,5 @@
+._menu-item {
+    color: var(--main-light-font-color);
+    /*margin-left: 4em;*/
+    text-decoration: none;
+}

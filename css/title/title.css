@@ -6,7 +6,7 @@
     text-transform: uppercase;
     letter-spacing: -0.07em;
     line-height: 1.3em;
-    color: #E3B873;
+    color: var(--main-dark-font-color);
     display: inline-block;
     max-width: 10em;
 }
