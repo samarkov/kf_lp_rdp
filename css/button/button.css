@@ -9,8 +9,7 @@
     color: white;
     text-transform: uppercase;
     padding: 1em;
-    max-width: 12.5em;
-    max-height: 3.2em;
+    height: 3.2em;
     background-color: #E3B873;
     box-shadow: 0 0.3em  1.25em rgba(227,184,115,0.1);
 }
