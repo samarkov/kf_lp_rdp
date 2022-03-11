@@ -1,0 +1,7 @@
+.header__phone > a {
+    display: inline-block;
+    color: var(--caption-font-color);
+    width: 126px;
+    margin-left: 9em;
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+.calc-req {
+    position: absolute;
+    background-color: black;/* только для визуальной отладки*/
+    margin-top: 12.13em;
+    margin-left: 8.37em;
+    max-width: 42.38em;
+}
+
+.calc-req__caption {
+    font-family: 'Yeseva One', 'serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: var(--main-light-font-color);
+}
+
+.calc-req__caption-emphasize {
+    color: var(--caption-font-color);
+}
+
+.calc-req__description {
+    display: block;
+    margin-top: 1.19em;
+    max-width: 504px/*31.5em*/;
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.38em;
+    color: var(--main-light-font-color);
+}
