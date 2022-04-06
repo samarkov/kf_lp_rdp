@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IC "REPAIR DESIGN PROJECT - step 2"</title>
+    <link rel="stylesheet" href="step-2.css">
+    <style>
+        /* TODO унести в стили. это поклдывание двухцветного фона */
+        .flex-wrapper {
+            background: linear-gradient(#131313 0% 1040px, #FFFF 1040px 100%);
+            background-size: 100vw auto;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<div class="flex-wrapper">
+    <div class="completed-projects">
+        <div class="completed-projects-description">
+
+            <span class="completed-projects__title">
+                completed projects
+            </span>
+
+            <span class="completed-projects__text">
+                Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+                construction market we have made happy more than 1000 families
+            </span>
+
+            <div class="completed-projects-details">
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">city:</span>
+                    <p class="completed-projects-details-item__text">Rostov-on-Don LCD admiral</p>
+                </div>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">apartment area:</span>
+                    <p class="completed-projects-details-item__text">81 m2</p>
+                </div>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">repair time:</span>
+                    <p class="completed-projects-details-item__text">3.5 months</p>
+                </div>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">repair cost:</span>
+                    <p class="completed-projects-details-item__text">Upon request</p>
+                </div>
+
+            </div>
+
+            <div class="completed-projects-paginator">               
+                    <img class="completed-projects-paginator__page-prev completed-projects-paginator__page--image" src="../img/pagination-arrow-left.png" alt="left arrow">
+                    <span class="completed-projects-paginator__page completed-projects-paginator__page--active"></span>
+                    <span class="completed-projects-paginator__page"></span>
+                    <span class="completed-projects-paginator__page"></span>
+                    <img class="completed-projects-paginator__page-next completed-projects-paginator__page--image" src="../img/pagination-arrow-right.png" alt="right arrow">              
+            </div>
+
+        </div>
+        <div class="completed-projects-navigator">>
+
+            <ul class="completed-projects-navigator-menu">
+                <li class="completed-projects-navigator-menu--active">rostov-on-don, admiral</li>
+                <li>sochi thieves</li>
+                <li>rostov-on-don patriotic</li>
+            </ul>
+
+            <div>
+                <img class="completed-projects-navigaor-image" src="../img/image 2.1.png" alt="Image 2.1">
+            </div>
+
+        </div>
+    </div>
+    <div class="topics-separator">
+        <span class="topic-separator__caption topics-separator__caption--white">online control</span>
+        <img class="topic-separator__image" src="../img/Online-control-Group-45.png" alt="Group 45">
+    </div>
+    <div class="online-control">
+        <div class="online-control-media">
+            <video class="online-control-media__player" controls
+             poster="../img/Player-poster.png">
+             <source src="../video/pexels-martin-sanchez-9320060.mp4" type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            <button class="online-control-player__play-button"><img src="../img/Play-button.png"></button>
+        </div>
+        <div class="online-control-request-form">
+            <img class="topic-separator__image topic-separator__image--simple-line " src="../img/Rectangle 6.9.png" alt="Rectangle 6.9"></img>
+            <span class="online-control-request-form-description">
+                At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time,
+                you can go to our website and monitor the progress of work in your apartment. You can watch the live
+                broadcast from one of our facilities!
+                Leave a request below and you will receive a link to the broadcast.
+            </span>
+            <div class="online-control-request-form-submit-controls">
+                <label class="input-label online-control-request-form-submit-controls__input">Name <br>
+                    <input class=" input-field" 
+                            name="person-name" 
+                            placeholder="What is your name:">
+                    </input>
+                </label>
+                <label class="input-label online-control-request-form-submit-controls__input">Phone <br>
+                    <input class="input-field" 
+                            name="person-phone"
+                            placeholder="Your phone number:">
+                        </input>
+                </label>        
+                <button class="button online-control-request-form-submit-controls__submit-button">submit</button>
+            </div>
+
+            <label class="online-control-request-form-aggrement">
+                I agree to the processing of personal data
+                <input type="checkbox" checked="checked">
+                <span class="online-control-request-form-aggrement__checkbox"></span>
+            </label>
+        </div>
+    </div>
+    <div class="topics-separator">
+        <span class="topic-separator__caption topics-separator__caption--black">types of repair</span>
+        <img class="topic-separator__image" src="../img/repair-type-Group-11_4.png" alt="Group 11.4">
+    </div>
+    <div class="repair-types">
+        <div class="repair-type">
+            <img class="repair-type__image" src="../img/Repair-type-group-4_1.png" alt="Rectangle 4.1"> 
+            <div class="repair-type-description">
+                <span class="repair-type-description__caption">Redecoration</span>
+                <ul class="repair-type-description__list">
+                    <li>Dismantling of old coatings</li>
+                    <li>Wallpapering</li>
+                    <li>Painting walls and ceilings</li>
+                    <li>Laying flooring</li>
+                    <li>Replacing plumbing</li>
+                    <li>Replacing sockets and switches</li>
+                    <li>Replacing doors</li>
+                </ul>
+                <button class="repair-type_price-button">
+                    from 900 rub / m2
+                </button>
+            </div>
+        </div>
+        <div class="repair-type">
+            <img class="repair-type__image" src="../img/Repair-type-group-4_2.png" alt="Rectangle 4.2"> 
+            <div class="repair-type-description">
+                <span class="repair-type-description__caption">Ovehaul</span>
+                <ul class="repair-type-description__list">
+                    <li>Dismantling of old coatings</li>
+                    <li>Wallpapering</li>
+                    <li>Painting walls and ceilings</li>
+                    <li>Laying flooring</li>
+                    <li>Replacing plumbing</li>
+                    <li>Replacing sockets and switches</li>
+                    <li>Replacing doors</li>
+                </ul>
+                <button class="repair-type_price-button">
+                from 1800 rub / m2
+                </button>
+            </div>
+        </div>
+        <div class="repair-type">
+            <img class="repair-type__image" src="../img/Repair-type-group-4_3.png" alt="Rectangle 4.3"> 
+            <div class="repair-type-description">
+                <span class="repair-type-description__caption">Designer Repair</span>
+                <ul class="repair-type-description__list">
+                    <li>Dismantling of old coatings</li>
+                    <li>Wallpapering</li>
+                    <li>Painting walls and ceilings</li>
+                    <li>Laying flooring</li>
+                    <li>Replacing plumbing</li>
+                    <li>Replacing sockets and switches</li>
+                    <li>Replacing doors</li>
+                </ul>
+                <button class="repair-type_price-button">
+                    from 4000 rub / m2
+                </button>
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+</html>

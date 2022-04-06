@@ -19,4 +19,7 @@
     font-family: "Nunito Sans", sans-serif;
     font-size: 0.8rem;
     text-decoration-color: #363636;
+    border-style: none none solid none;
+    border-color: rgba(54, 54, 54, 0.3);
+    border-width: 1px;
 }

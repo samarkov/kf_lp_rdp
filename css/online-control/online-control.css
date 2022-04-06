@@ -1,0 +1,23 @@
+.online-control {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+   
+}
+
+.online-control-media {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    position: relative;
+    
+}
+
+.online-control-media__player {
+    display: block;
+    object-fit: contain;
+    width: 817px;
+    height: 434px;
+    align-self: center;
+    background-color: aquamarine;
+}

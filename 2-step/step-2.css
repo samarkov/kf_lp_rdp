@@ -1,0 +1,17 @@
+@import "../css/fonts.css";
+@import "../css/tiles/repair-types.css";
+@import "../css/button/button.css";
+@import "../css/separator/topic-separator.css";
+@import "../css/player/player.css";
+@import "../css/online-control/online-control.css";
+@import "../css/online-control/request-form.css";
+@import "../css/input/input.css";
+@import "../css/completed-projects/completed-projects.css";
+@import "../css/title/title.css";
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
