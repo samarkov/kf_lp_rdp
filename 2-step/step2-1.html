@@ -7,60 +7,72 @@
     <link rel="stylesheet" href="step-2.css">
     <style>
         /* TODO унести в стили. это поклдывание двухцветного фона */
-        /* .flex-wrapper {
+        .flex-wrapper {
             background: linear-gradient(#131313 0% 1040px, #FFFF 1040px 100%);
             background-size: 100vw auto;
             z-index: 0;
-        } */
+        }
     </style>
 </head>
 
 <div class="flex-wrapper">
     <div class="completed-projects">
-        <div class="completed-project">
-            <h1 classs="completed-project__title">
+        <div class="completed-projects-description">
+
+            <span class="completed-projects__title">
                 completed projects
-            </h1>
-            <span class="completed-project__desc">
+            </span>
+
+            <span class="completed-projects__text">
                 Only a small part of the work performed by our company is presented on the site. For 14 years on in the
                 construction market we have made happy more than 1000 families
             </span>
 
-            <div class="completed-project-details">
-                <div class="completed-project-details-item">
-                    <h2 class="completed-project-details-item_caption">city:</h2>
-                    <p class="completed-project-details-item__description">Rostov-on-Don LCD admiral</p>
+            <div class="completed-projects-details">
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">city:</span>
+                    <p class="completed-projects-details-item__text">Rostov-on-Don LCD admiral</p>
                 </div>
-                <div class="completed-project-details-item">
-                    <h2 class="completed-project-details-item_caption">apartment area:</h2>
-                    <p class="completed-project-details-item__description">81 m2</p>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">apartment area:</span>
+                    <p class="completed-projects-details-item__text">81 m2</p>
                 </div>
-                <div class="completed-project-details-item">
-                    <h2 class="completed-project-details-item_caption">repair time:</h2>
-                    <p class="completed-project-details-item__description">3.5 months</p>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">repair time:</span>
+                    <p class="completed-projects-details-item__text">3.5 months</p>
                 </div>
-                <div class="completed-project-details-item">
-                    <h2 class="completed-project-details-item_caption">repair cost:</h2>
-                    <p class="completed-project-details-item__description">upon request</p>
+
+                <div class="completed-projects-details-item">
+                    <span class="completed-projects-details-item__caption">repair cost:</span>
+                    <p class="completed-projects-details-item__text">Upon request</p>
                 </div>
+
             </div>
-            <div class="completed-project-paginator">               
-                    <img src="" alt="left arrow">
-                    <img src="" alt="white dot" class="completed-project-paginator--current" > <!-- снимаем затемнение -->
-                    <img src="" alt="gray dot"> <!-- https://a-panov.ru/css-darkening/ затемняем белую точку -->
-                    <img src="" alt="gray dot"> <!-- https://a-panov.ru/css-darkening/ затемняем белую точку -->
-                    <img src="" alt="right arrow">              
+
+            <div class="completed-projects-paginator">               
+                    <img class="completed-projects-paginator__page-prev completed-projects-paginator__page--image" src="../img/pagination-arrow-left.png" alt="left arrow">
+                    <span class="completed-projects-paginator__page completed-projects-paginator__page--active"></span>
+                    <span class="completed-projects-paginator__page"></span>
+                    <span class="completed-projects-paginator__page"></span>
+                    <img class="completed-projects-paginator__page-next completed-projects-paginator__page--image" src="../img/pagination-arrow-right.png" alt="right arrow">              
             </div>
 
         </div>
-        <div class="cur-project-navigator" <ul class="cur-project-navigator-caption">
-            <li>rostov-on-don, admiral</li>
-            <li>sochi thieves</li>
-            <li>rostov-on-don patriotic</li>
+        <div class="completed-projects-navigator">>
+
+            <ul class="completed-projects-navigator-menu">
+                <li class="completed-projects-navigator-menu--active">rostov-on-don, admiral</li>
+                <li>sochi thieves</li>
+                <li>rostov-on-don patriotic</li>
             </ul>
+
             <div>
-                <img class="cur-project-navigaor-image" src="" alt="Image of Mask group">
+                <img class="completed-projects-navigaor-image" src="../img/image 2.1.png" alt="Image 2.1">
             </div>
+
         </div>
     </div>
     <div class="topics-separator">
