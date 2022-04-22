@@ -1,4 +1,4 @@
-.header__phone > a {
+.navigation-panel__phone > a {
     display: inline-block;
     color: var(--caption-font-color);
     min-width: 8em;

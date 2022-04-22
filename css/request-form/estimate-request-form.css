@@ -1,0 +1,63 @@
+.estimate-request-form {
+    display: flex;
+    flex-flow: column;
+    margin-top: 3.69rem;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);   
+    color: rgba(255, 255, 255, 1);
+    width: 31.625rem;
+    height: 31.81rem;
+}
+
+.estimate-request-form__caption {
+    display: block;
+    padding-top: 1.75rem;
+    padding-bottom: 2.44rem;
+    align-self: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    max-width: 16rem;
+    text-align: center;
+}
+.estimate-request-form-submit-controls {
+    display: flex;
+    flex-flow: column;
+    row-gap: 4rem;
+}
+
+.estimate-request-form .input-field {
+    color: rgba(255, 255, 255, 1);
+    background-color: #131313;
+    border-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+  
+}
+
+.estimate-request-form .input-field::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.estimate-request-form .input-label {
+    color: rgba(255, 255, 255, 0.5);
+    align-self: center;
+    /* padding: 0px 0px 49px 0; */
+    width: 82%; 
+}
+
+.request-form-aggrement--position {
+    margin-bottom: 2.3rem;
+    margin-top: 1rem;
+    align-self: center;
+    width: 82%;
+}
+
+.estimate-request-form__submit-button{
+    box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
+    border-radius: 0rem;
+    width: 13.31rem;
+    height: 3.19rem;
+    align-self: flex-end;
+    margin-right: 9%;
+}
+
