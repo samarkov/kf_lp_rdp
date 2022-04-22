@@ -1,44 +1,9 @@
-.online-control-request-form {
-    display: flex;
-    flex-flow: column;
-}
-
-.online-control-request-form-description {
-    align-self: center;
-    width: 42.56rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 2.32rem;
-    text-align: center;
-    color: #363636;
-}
-
-.online-control-request-form-submit-controls {
-    display: flex;
-    column-gap: 3.4rem;
-    justify-content: center;
-    margin-top: 5.72rem;
-}
-
-.online-control-request-form-submit-controls__input {
-    min-width: 14.44rem;
-}
-.input-field:focus {
-    outline: none;
-}
-
-
-
 
 /*стилизация чекбокса взята отсюда https://www.w3docs.com/snippets/css/how-to-style-a-checkbox-with-css.html*/
-.online-control-request-form-aggrement {
-    align-self: center;
+.request-form-aggrement {
     display: block;
     position: relative;
     padding-left: 1.69rem;
-    margin-bottom: 4.75rem;
-    margin-top: 2.19rem;
     cursor: pointer;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -47,12 +12,12 @@
     
 }
  
-.online-control-request-form-aggrement input {
+.request-form-aggrement input {
     visibility: hidden;
 }
 
 
-.online-control-request-form-aggrement__checkbox {
+.request-form-aggrement__checkbox {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,18 +29,18 @@
 
   }
   /* Specify the background color to be shown when hovering over checkbox */
-  .online-control-request-form-aggrement:hover input ~ .online-control-request-form-aggrement__checkbox {
+  .request-form-aggrement:hover input ~ .request-form-aggrement__checkbox {
     background-color: rgba(227, 184, 115, 1);
     border: solid 1px rgba(227, 184, 115, 1);
     border-radius: 1px;
 
   }
   /* Specify the background color to be shown when checkbox is active */
-  .online-control-request-form-aggrement input:active ~ .online-control-request-form-aggrement__checkbox {
+  .request-form-aggrement input:active ~ .request-form-aggrement__checkbox {
     background-color: white;
   }
   /* Specify the background color to be shown when checkbox is checked */
-  .online-control-request-form-aggrement input:checked ~ .online-control-request-form-aggrement__checkbox {
+  .request-form-aggrement input:checked ~ .request-form-aggrement__checkbox {
     background-color: rgba(227, 184, 115, 1);
     border: solid 1px rgba(227, 184, 115, 1);
     border-radius: 1px;
@@ -83,21 +48,21 @@
   }
   /* Checkmark to be shown in checkbox */
   /* It is not be shown when not checked */
-  .online-control-request-form-aggrement__checkbox:after {
+  .request-form-aggrement__checkbox:after {
     content: "";
     position: absolute;
     display: none;
   }
   
   /* Display checkmark when checked */
-  .online-control-request-form-aggrement input:checked ~ .online-control-request-form-aggrement__checkbox:after {
+  .request-form-aggrement input:checked ~ .request-form-aggrement__checkbox:after {
     display: block;
   }
   /* Styling the checkmark using webkit */
   /* Rotated the rectangle by 45 degree and 
   showing only two border to make it look
   like a tickmark */
-  .online-control-request-form-aggrement .online-control-request-form-aggrement__checkbox:after {
+  .request-form-aggrement .request-form-aggrement__checkbox:after {
     left: 5px;
     bottom: 3px;
     width: 6px;

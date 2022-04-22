@@ -1,12 +1,12 @@
 
-.header {
+.navigation-panel {
     box-sizing: border-box;
     display: flex;
     background-color: #131313;
     width: 90rem;
     min-height: 7.6em;
     align-items: center;
-    /*Whole header elements have the same font family*/
+    /*Whole navigation-panel elements have the same font family*/
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
