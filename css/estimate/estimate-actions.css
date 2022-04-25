@@ -1,6 +1,7 @@
 .estimate-project{
     display: flex;
     flex-flow: column;
+    margin-bottom: 15rem;
 }
 .estimate-actions{
     display:flex;
@@ -54,7 +55,7 @@
     position: relative;
     display: block;
     top: -2rem;
-    margin-right: 10rem;
+    margin-right: 15rem;
     align-self: flex-end;
     font-family: 'Nunito Sans',sans-serif;
     font-style: normal;

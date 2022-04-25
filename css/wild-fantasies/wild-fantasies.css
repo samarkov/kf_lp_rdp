@@ -1,0 +1,82 @@
+.wrapper-wild-fantasies {
+    display: flex;
+    flex-flow: row;
+    position: inherit;
+}
+
+.wrapper-wild-fantasies {
+    /* width: 100vw; */
+    height: 864px;
+    margin-bottom: 8rem;
+    background-image: linear-gradient(109.8deg, rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 0.9) 100%),
+        url("../../img/wild-fantasy-background.png");
+    background-repeat: no-repeat;
+    background-size: contain,
+        contain;
+}
+
+.wild-fantasies-menu {
+    display: flex;
+    flex-flow: column;
+}
+
+.wild-fantasies-menu__caption {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.69rem;
+    line-height: 2.3rem;
+    width: 18rem;
+    margin: 8.56rem 0px 0px 6.19rem;
+    color: var(--caption-font-color);
+    text-transform: uppercase;
+}
+
+.wild-fantasies-menu__list {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--main-light-font-color);
+    /* line-height: 3rem; */
+    margin: 2.94rem 0px 0px 6.19rem;
+}
+
+.wild-fantasies-menu__list li {
+    display: block;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.wild-fantasies-menu__list li:hover {
+    cursor: pointer;
+}
+
+.wild-fantasies-menu__list--active {
+    border-bottom: 2px solid var(--caption-font-color);
+    color: var(--caption-font-color);
+}
+
+
+.wild-fantasies-galery {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    left: 20%;
+    top: -64px;
+    height: 1200px;
+    width: 45%;
+    flex-wrap: wrap;
+    row-gap: 2.69rem;
+    column-gap: 2.56rem;
+    margin-top: -50px;
+}
+
+.wild-fantasies-galery img:first-child {
+    padding-top: 5rem;
+}
+
+.wild-fantasies-galery img:last-child {
+    padding-bottom: 5rem;
+}
