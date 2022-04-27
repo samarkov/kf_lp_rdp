@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: column;
     align-self: center;
+    width: 100%;
 }
 
 .contacts__address {
@@ -13,7 +14,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--caption-font-color);
-    padding: 86px 20% 2rem;
+    padding: 52px 30% 2rem;
 }
 
 .contacts-social-networks {
@@ -26,4 +27,6 @@
 
 .contacts__map {
     padding-bottom: 4.12rem;
+    width: min-content;
+    align-self: center;
 }
