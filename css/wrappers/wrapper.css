@@ -1,0 +1,11 @@
+.flex-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    width: 1440px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}

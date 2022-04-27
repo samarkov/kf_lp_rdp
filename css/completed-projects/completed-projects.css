@@ -76,12 +76,15 @@
     font-size: 0.8rem;
     line-height: 19px;
     margin-bottom: 2.7rem;
-
 }
+
 .completed-projects-navigator-menu li {
     display: block;
     padding-bottom: 0.42rem;
+}
 
+.completed-projects-navigator-menu li:hover {
+    cursor: pointer;
 }
 
 .completed-projects-navigator-menu--active {

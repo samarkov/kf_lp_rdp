@@ -46,8 +46,12 @@
     font-family: 'Nunito Sans', sans-serif;
     color: var(--button-font-color);
 }
+.calc-req__button:hover {
+    cursor: pointer;
+    
+}
 
-.calc-req__button_cost {
+.calc-req__button--cost {
     border: 0;
     padding: 1.6em 4em;
     min-width: 18em;
@@ -56,7 +60,7 @@
     box-shadow: 0 0.3em  0.9em rgba(227,184,115,0.3);
 }
 
-.calc-req__button_appl {
+.calc-req__button--appl {
     padding: 1.6em 2.8em;
     min-width: 19em;
     margin-left: 1.25em;
