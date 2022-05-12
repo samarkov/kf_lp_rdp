@@ -1,3 +1,4 @@
+@import "../css/normalize.css";
 @import "../css/fonts.css";
 @import "../css/navigation-panel/navigation-panel.css";
 @import "../css/navigation-panel/menu.css";
@@ -25,8 +26,4 @@
 @import "../css/contacts/contacts.css";
 
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
 }
