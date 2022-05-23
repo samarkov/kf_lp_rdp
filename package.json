@@ -1,0 +1,25 @@
+{
+  "name": "kf_lp_rdp",
+  "version": "1.0.0",
+  "description": "Study project of a web site landing page",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarkov/kf_lp_rdp.git"
+  },
+  "author": "Konstantin Samarkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarkov/kf_lp_rdp/issues"
+  },
+  "homepage": "https://github.com/samarkov/kf_lp_rdp#readme",
+  "dependencies": {
+    "npm": "^8.10.0"
+  }
+}
