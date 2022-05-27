@@ -1,14 +1,14 @@
-@import "../css/fonts.css";
-@import "../css/background/background.css";
-@import "../css/tiles/repair-types.css";
-@import "../css/button/button.css";
-@import "../css/separator/topic-separator.css";
-@import "../css/player/player.css";
-@import "../css/online-control/online-control.css";
-@import "../css/request-form/request-form.css";
-@import "../css/input/input.css";
-@import "../css/completed-projects/completed-projects.css";
-@import "../css/title/title.css";
+@import "../scss/fonts.css";
+@import "../scss/background/background.css";
+@import "../scss/tiles/repair-types.css";
+@import "../scss/button/button.css";
+@import "../scss/separator/topic-separator.css";
+@import "../scss/player/player.css";
+@import "../scss/online-control/online-control.css";
+@import "../scss/request-form/request-form.css";
+@import "../scss/input/input.css";
+@import "../scss/completed-projects/completed-projects.css";
+@import "../scss/title/title.css";
 
 
 *,

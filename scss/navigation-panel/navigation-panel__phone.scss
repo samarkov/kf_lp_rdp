@@ -1,0 +1,9 @@
+@import "../fonts";
+
+.navigation-panel__phone > a {
+    display: inline-block;
+    color: $caption-font-color;
+    min-width: 8em;
+    margin-left: 9em;
+    text-decoration: underline;
+}

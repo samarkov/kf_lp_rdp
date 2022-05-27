@@ -1,0 +1,75 @@
+
+/*стилизация чекбокса взята отсюда https://www.w3docs.com/snippets/scss/how-to-style-a-checkbox-with-css.html*/
+.request-form-aggrement {
+    display: block;
+    position: relative;
+    padding-left: 1.69rem;
+    cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+}
+ 
+.request-form-aggrement input {
+    visibility: hidden;
+}
+
+
+.request-form-aggrement__checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 1px;
+
+  }
+  /* Specify the background color to be shown when hovering over checkbox */
+  .request-form-aggrement:hover input ~ .request-form-aggrement__checkbox {
+    background-color: rgba(227, 184, 115, 1);
+    border: solid 1px rgba(227, 184, 115, 1);
+    border-radius: 1px;
+
+  }
+  /* Specify the background color to be shown when checkbox is active */
+  .request-form-aggrement input:active ~ .request-form-aggrement__checkbox {
+    background-color: white;
+  }
+  /* Specify the background color to be shown when checkbox is checked */
+  .request-form-aggrement input:checked ~ .request-form-aggrement__checkbox {
+    background-color: rgba(227, 184, 115, 1);
+    border: solid 1px rgba(227, 184, 115, 1);
+    border-radius: 1px;
+
+  }
+  /* Checkmark to be shown in checkbox */
+  /* It is not be shown when not checked */
+  .request-form-aggrement__checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Display checkmark when checked */
+  .request-form-aggrement input:checked ~ .request-form-aggrement__checkbox:after {
+    display: block;
+  }
+  /* Styling the checkmark using webkit */
+  /* Rotated the rectangle by 45 degree and 
+  showing only two border to make it look
+  like a tickmark */
+  .request-form-aggrement .request-form-aggrement__checkbox:after {
+    left: 5px;
+    bottom: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

@@ -7,7 +7,10 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass  scss/",
+    "saas-watch": "sass --watch scss/" 
+
   },
   "repository": {
     "type": "git",

@@ -1,22 +1,22 @@
-@import "../css/background/background.css";
-@import "../css/wrappers/wrapper.css";
-@import "../css/fonts.css";
-@import "../css/button/button.css";
-@import "../css/separator/topic-separator.css";
-@import "../css/input/input.css";
-@import "../css/title/title.css";
-@import "../css/request-form/request-form.css";
-@import "../css/request-form/question-form.css";
-@import "../css/request-form/estimate-request-form.css";
-@import "../css/estimate/estimate-actions.css";
-@import "../css/our-clients/our-clients.css";
-@import "../css/contacts/contacts.css";
-@import "../css/navigation-panel/navigation-panel.css";
-@import "../css/navigation-panel/menu.css";
-@import "../css/navigation-panel/menu__item.css";
-@import "../css/navigation-panel/navigation-panel__item.css";
-@import "../css/navigation-panel/navigation-panel__phone.css";
-@import "../css/navigation-panel/navigation-panel__button.css";
+@import "../scss/background/background.css";
+@import "../scss/wrappers/wrapper.css";
+@import "../scss/fonts.css";
+@import "../scss/button/button.css";
+@import "../scss/separator/topic-separator.css";
+@import "../scss/input/input.css";
+@import "../scss/title/title.css";
+@import "../scss/request-form/request-form.css";
+@import "../scss/request-form/question-form.css";
+@import "../scss/request-form/estimate-request-form.css";
+@import "../scss/estimate/estimate-actions.css";
+@import "../scss/our-clients/our-clients.css";
+@import "../scss/contacts/contacts.css";
+@import "../scss/navigation-panel/navigation-panel.css";
+@import "../scss/navigation-panel/menu.css";
+@import "../scss/navigation-panel/menu__item.css";
+@import "../scss/navigation-panel/navigation-panel__item.css";
+@import "../scss/navigation-panel/navigation-panel__phone.css";
+@import "../scss/navigation-panel/navigation-panel__button.css";
 
 
 *,

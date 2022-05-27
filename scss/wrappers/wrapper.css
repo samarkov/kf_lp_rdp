@@ -1,0 +1,21 @@
+.flex-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  width: 1440px;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    width: 375px;
+  }
+}
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+/*# sourceMappingURL=wrapper.css.map */

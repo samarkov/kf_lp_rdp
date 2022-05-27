@@ -1,4 +1,4 @@
-@import "../css/fonts.css";
+@import "../scss/fonts.css";
 
 .grid-layout{
     display: grid;

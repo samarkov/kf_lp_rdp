@@ -1,0 +1,33 @@
+.calc-req-wrapper {
+  min-height: 44em;
+  width: 90rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/image-4.3.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-wrapper {
+  background-image: linear-gradient(rgb(19, 19, 19) 0 1074px, rgb(255, 255, 255) 1074px 100%);
+}
+
+.flex-wrapper__background--s3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../../img/skyscrappers-left.png), url(../../img/skyscrappers-right.png), linear-gradient(rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.72)), url(../../img/skyscrappers-big.png);
+  background-position: left 1560px, left 1560px, right 1560px, left bottom, left bottom;
+  background-size: 100% 450px, auto, auto, 1440px 955px, 1440px 955px;
+  background-repeat: no-repeat;
+}
+
+.flex-wrapper__background--s4 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../../img/skyscrappers-left.png), url(../../img/skyscrappers-right.png), linear-gradient(rgba(24, 24, 24, 0.9), rgba(24, 24, 24, 0.72)), url(../../img/skyscrappers-big.png);
+  background-position: left 2460px, left 2460px, right 2460px, left bottom, left bottom;
+  background-size: 100% 450px, auto, auto, 1440px 955px, 1440px 955px;
+  background-repeat: no-repeat;
+}
+
+.estimate-sequnce {
+  background-image: url("../../img/image-6.1.png");
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=background.css.map */
