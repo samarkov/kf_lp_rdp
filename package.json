@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass  scss/",
-    "sass-watch": "sass --watch scss/" 
+    "sass": "sass  ./scss/:./css",
+    "sass-watch": "sass --watch ./scss/:./css" 
 
   },
   "repository": {

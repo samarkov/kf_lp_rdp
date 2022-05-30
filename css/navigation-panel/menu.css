@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap");
+.menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 53em;
+  margin-left: 10.5em;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

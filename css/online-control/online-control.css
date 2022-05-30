@@ -1,0 +1,67 @@
+.online-control {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
+.online-control-media {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  position: relative;
+}
+
+.online-control-media__player {
+  display: block;
+  object-fit: contain;
+  width: 817px;
+  height: 434px;
+  align-self: center;
+  background-color: aquamarine;
+}
+
+.online-control-request-form {
+  display: flex;
+  flex-flow: column;
+}
+
+.online-control-request-form-description {
+  align-self: center;
+  width: 42.56rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 2.32rem;
+  text-align: center;
+  color: #363636;
+}
+
+.online-control-request-form-submit-controls {
+  display: flex;
+  column-gap: 3.4rem;
+  justify-content: center;
+  margin-top: 5.72rem;
+}
+
+.online-control-request-form-submit-controls__input {
+  min-width: 14.44rem;
+}
+
+.online-control-request-form-submit-controls .input-label {
+  color: rgba(54, 54, 54, 0.5);
+}
+
+.online-control-request-form-aggrement--position {
+  margin-bottom: 4.75rem;
+  margin-top: 2.19rem;
+  align-self: center;
+}
+
+.online-control-request-form-submit-controls__submit-button {
+  box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
+  border-radius: 0.125rem;
+  width: 12.5rem;
+  height: 3.19rem;
+}
+
+/*# sourceMappingURL=online-control.css.map */

@@ -1,0 +1,38 @@
+.topics-separator {
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+}
+
+.topic-separator__caption {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+  width: 25rem;
+  align-self: center;
+}
+
+.topic-separator__image {
+  width: min-content;
+  align-self: center;
+  padding: 0.81rem 0 1.94rem 0;
+}
+
+.topic-separator__image--simple-line {
+  padding: 3.9rem 0 2.15rem 0;
+}
+
+.topics-separator__caption--white {
+  color: white;
+}
+
+.topic-separator__caption--black {
+  color: black;
+}
+
+/*# sourceMappingURL=topic-separator.css.map */
