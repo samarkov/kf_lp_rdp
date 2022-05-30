@@ -1,0 +1,26 @@
+@import "../scss/background/background";
+@import "../scss/wrappers/wrapper";
+@import "../scss/fonts";
+@import "../scss/button/button";
+@import "../scss/separator/topic-separator";
+@import "../scss/input/input";
+@import "../scss/title/title";
+@import "../scss/request-form/request-form";
+@import "../scss/request-form/question-form";
+@import "../scss/request-form/estimate-request-form";
+@import "../scss/estimate/estimate-actions";
+@import "../scss/our-clients/our-clients";
+@import "../scss/contacts/contacts";
+@import "../scss/navigation-panel/navigation-panel";
+@import "../scss/navigation-panel/menu";
+@import "../scss/navigation-panel/menu__item";
+@import "../scss/navigation-panel/navigation-panel__item";
+@import "../scss/navigation-panel/navigation-panel__phone";
+@import "../scss/navigation-panel/navigation-panel__button";
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

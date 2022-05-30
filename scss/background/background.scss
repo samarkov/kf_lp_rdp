@@ -20,18 +20,18 @@
     linear-gradient(rgba(24, 24, 24, 0.9),
     rgba(24, 24, 24, 0.72)), url(./../img/skyscrappers-big.png);
     background-position:
-        left 1560px,
-        left 1560px,
-        right 1560px,
+        left calc(100% - 954px),
+        left calc(100% - 954px),
+        right calc(100% - 954px),
 
         left bottom,
         left bottom;
-        background-size:
+    background-size:
         100% 450px,
         auto,
         auto,
 
-        1440px 955px, 1440px 955px;
+        100% 955px, 100% 955px;
         background-repeat: no-repeat;
 }
 
@@ -44,9 +44,9 @@
     linear-gradient(rgba(24, 24, 24, 0.9),
     rgba(24, 24, 24, 0.72)), url(./../img/skyscrappers-big.png);
     background-position:
-        left 2460px,
-        left 2460px,
-        right 2460px,
+        left calc(100% - 954px),
+        left calc(100% - 954px),
+        right calc(100% - 954px),
 
         left bottom,
         left bottom;

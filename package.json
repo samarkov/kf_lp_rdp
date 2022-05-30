@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass  ./scss/:./css",
-    "sass-watch": "sass --watch ./scss/:./css"
+    "sass-watch": "sass --watch ./scss/:./css",
+    "saas-s3": "sass ./3-step/step-3.scss ./3-step/step-3.css"
   },
   "repository": {
     "type": "git",
