@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass  ./scss/:./css",
     "sass-watch": "sass --watch ./scss/:./css",
+    "saas-s2": "sass ./2-step/step-2.scss ./2-step/step-2.css",
     "saas-s3": "sass ./3-step/step-3.scss ./3-step/step-3.css"
   },
   "repository": {
