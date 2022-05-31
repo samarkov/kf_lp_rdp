@@ -1,6 +1,6 @@
-@import "../common-values.scss";
+@import "../common-values";
 
-._menu-item {
+.menu-item {
     color: $main-light-font-color;
     text-decoration: none;
 }

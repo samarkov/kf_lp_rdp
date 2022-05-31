@@ -2,14 +2,14 @@
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    min-width: 53em;
-    margin-left: 10.5em;
+    justify-content: space-around;
+    min-width: 43rem;
+    // margin-left: 10.5rem;
 }
 
 @media screen and (max-width: $mobile-drop-point) {
     .menu {
-        visibility: hidden;
+        display:none;
     }
 
 }

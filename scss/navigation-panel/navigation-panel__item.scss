@@ -1,7 +1,17 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .navigation-panel__item {
+    display: block;
+    // justify-self: start;
     color: $caption-font-color;
-    margin-left: 8.25em;
+    width: auto;
+    margin-left: 1.25rem;
 }
 
+@media screen and (max-width: $mobile-drop-point) {
+    .navigation-panel__item {
+        color: $caption-font-color;
+        margin-left: 1.1rem;
+    }
+
+}

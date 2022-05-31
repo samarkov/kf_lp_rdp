@@ -1,16 +1,18 @@
+@import "../common-values";
+
 .flex-wrapper {
     display: flex;
     flex-flow: column;
     align-self: center;
-    width: 1440px;
+    width: $desktop-width;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: $mobile-drop-point) {
     .flex-wrapper {
         display: flex;
         flex-flow: column;
         align-self: center;
-        width: 375px;
+        width: $mobile-width;
     }
 }
 

@@ -654,7 +654,7 @@ like a tickmark */
     visibility: hidden;
   }
 }
-._menu-item {
+.menu-item {
   color: #FFFFFF;
   text-decoration: none;
 }

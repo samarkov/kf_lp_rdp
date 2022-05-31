@@ -3,15 +3,16 @@
     box-sizing: border-box;
     display: flex;
     background-color: #131313;
-    width: 90rem;
-    min-height: 7.6em;
+    // width: 90rem;
+    min-height: 7.6rem;
     align-items: center;
+    justify-content: space-between;
     /*Whole navigation-panel elements have the same font family*/
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 0.7em
+    font-size: 0.7rem
 }
 
 .navigation-panel--bottom {

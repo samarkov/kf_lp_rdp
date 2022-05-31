@@ -4,10 +4,16 @@
     display: block;
     margin-left: 4em;
     justify-content: center;
-    padding: 0.81em  2.06em;
-    min-width: 15em;
+    padding: 0.81rem  2.06rem;
+    min-width: 15rem;
     border: 0;
-    border-radius: 0.125em;
+    border-radius: 0.125rem;
     font-style: italic;
     color: $main-light-font-color;
 }
+
+@media screen and (max-width: $mobile-drop-point) {
+    .navigation-panel__button {
+        display: none;
+    }
+}    

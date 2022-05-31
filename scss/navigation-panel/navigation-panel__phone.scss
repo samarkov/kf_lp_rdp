@@ -1,9 +1,23 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .navigation-panel__phone > a {
-    display: inline-block;
+    display: block;
     color: $caption-font-color;
-    min-width: 8em;
-    margin-left: 9em;
+    width: 8rem;
+    padding-left: 9rem;
     text-decoration: underline;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .navigation-panel__phone {
+        margin-left: 0rem;
+        justify-self: end;
+    }
+
+    .navigation-panel__phone > a {
+        color: $main-light-font-color;
+        text-decoration: none;
+        // min-width: 8rem;
+        padding-right: 1.1rem;
+    }
 }
