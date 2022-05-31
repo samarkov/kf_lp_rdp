@@ -1,23 +1,25 @@
 @import "../common-values";
 
+.navigation-panel__phone {
+    width: 9rem;
+}
+
 .navigation-panel__phone > a {
     display: block;
     color: $caption-font-color;
-    width: 8rem;
-    padding-left: 9rem;
+    padding-left: 2rem;
     text-decoration: underline;
 }
 
 @media screen and (max-width: $mobile-drop-point) {
     .navigation-panel__phone {
-        margin-left: 0rem;
-        justify-self: end;
+        width: 40%;      
     }
 
     .navigation-panel__phone > a {
         color: $main-light-font-color;
         text-decoration: none;
-        // min-width: 8rem;
-        padding-right: 1.1rem;
+        padding-left: 10%;
+        // padding-right: 1.1rem;
     }
 }

@@ -32,3 +32,10 @@
     width: min-content;
     align-self: center;
 }
+
+
+@media screen and (max-width: $mobile-drop-point) {
+    .contacts__map {
+        display: none;     
+    }
+}

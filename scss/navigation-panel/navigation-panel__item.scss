@@ -5,13 +5,14 @@
     // justify-self: start;
     color: $caption-font-color;
     width: auto;
-    margin-left: 1.25rem;
+    margin-left: 6rem;
 }
 
 @media screen and (max-width: $mobile-drop-point) {
     .navigation-panel__item {
         color: $caption-font-color;
         margin-left: 1.1rem;
+        width: 60%;
     }
 
 }
