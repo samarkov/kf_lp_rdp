@@ -5,6 +5,13 @@
     flex-flow: column;
     margin-bottom: 15rem;
 }
+
+@media screen and (max-width: $mobile-drop-point) {
+    .estimate-project{
+         display: none;
+    }
+}
+
 .estimate-actions{
     display:flex;
     flex-flow: row;

@@ -17,5 +17,10 @@
     background: rgba(0,0,0,0.8);
 }
 
+@media screen and (max-width: $mobile-drop-point) {
+    .online-control-player__play-button > img {
+        width:20%;
+    }
+}
 
 

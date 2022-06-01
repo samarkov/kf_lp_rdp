@@ -1,7 +1,15 @@
+@import "../common-values";
+
 .our-clients {
     display: flex;
     flex-flow: column;
-    
+
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .our-clients {
+        display: none;
+    }
 }
 
 .our-clients-header {
@@ -19,7 +27,7 @@
     align-self: center;
 }
 
-.our-clients-header img{
+.our-clients-header img {
     display: block;
     width: 114px;
     height: 28px;
@@ -66,7 +74,7 @@
     flex-flow: row;
 }
 
-.our-clients-card__name{
+.our-clients-card__name {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -90,18 +98,18 @@
 }
 
 .our-clients-card__description span {
-    text-transform: lowercase;   
+    text-transform: lowercase;
 }
 
-.our-clients-card__description  span::first-letter { 
+.our-clients-card__description span::first-letter {
     text-transform: uppercase;
 }
 
 .our-clients-review-tth {
-    position:relative;
+    position: relative;
     margin-top: -1.69rem;
     display: flex;
-    flex-flow: row; 
+    flex-flow: row;
     column-gap: 1px;
 }
 
