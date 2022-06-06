@@ -1,18 +1,17 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .calc-req {
     position: absolute;
     margin-top: 12.13em;
     margin-left: 8.37em;
-    max-width: 42.38em;
 }
 
 .calc-req__caption {
     font-family: 'Yeseva One', 'serif';
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 53px;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
     text-transform: uppercase;
     color: $main-light-font-color;
 }
@@ -24,7 +23,6 @@
 .calc-req__description {
     display: block;
     margin-top: 0.9em;
-    /*min-width: 504px!*31.5em*!;*/
     font-family: 'Nunito Sans', 'sans-serif';
     font-style: normal;
     font-weight: 400;
@@ -70,3 +68,53 @@
     border-radius: 0.125em;
 }
 
+@media screen and (max-width: $mobile-drop-point) {
+    .calc-req {
+        margin-top: 5.3rem;
+        margin-left: 1rem;
+        position: static;
+        // justify-self: center;
+    }  
+
+    .calc-req__caption {
+        
+        // margin-left: 1rem;
+        font-family: 'Yeseva One', 'serif';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.4rem;
+        line-height: 1.87rem;
+        text-transform: uppercase;
+    }
+
+    .calc-req__description {
+        display: block;
+        font-size: 0.875rem;
+        line-height: 1.18rem;
+        text-align:left;
+        color: $main-light-font-color;
+    }
+    .calc-req-actions {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .calc-req__button--cost {
+        border: 0;
+        margin: 0.8rem 0;
+        // min-width: 00%;
+        width: calc(100% - 1rem);
+        background-color: $caption-font-color;
+        border-radius: 0.125em;
+        box-shadow: 0 0.3em  0.9em rgba(227,184,115,0.3);
+    }
+    
+    .calc-req__button--appl {
+        margin: 0.8rem 0;
+        width: calc(100% - 1rem);
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 0.125em;
+    }
+    
+}

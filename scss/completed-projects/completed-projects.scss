@@ -1,10 +1,9 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .completed-projects {
     display: flex;
     column-gap: 50px;
     justify-content: center;
-    /* max-width: fit-content; */
     padding: 6.69rem 8.375rem;
 
 }
@@ -12,9 +11,8 @@
 .completed-projects-description {
     display: flex;
     flex-flow: column;
+    justify-items: center;
     color:$main-light-font-color;
-    min-width: 23rem;
-    max-width: 28rem;
 }
 
 .completed-projects__title {
@@ -114,4 +112,56 @@
 
 .completed-projects-paginator__page--image {
     object-fit: none;
+}
+
+
+@media screen and (max-width: $mobile-drop-point) {
+    .completed-projects-paginator {
+        display: none;
+    }
+
+    .completed-projects {
+        display: flex;
+        flex-flow: column;
+        column-gap: 0px;
+        align-content: center;
+        padding: 2.1rem 1rem 0;
+    }
+    
+    .completed-projects-description {
+        display: flex;
+        flex-flow: column;
+        justify-items:stretch ;
+        // align-content: center;
+        color:$main-light-font-color;
+        justify-content: center;
+    }
+    
+    .completed-projects__title {
+        // display: block;
+        // align-self: flex-start;
+        justify-self: center ;
+        // width: 100%;
+        font-family: 'Yeseva One', serif;
+        font-size: 1.67rem;
+        letter-spacing: -0.07em;
+        line-height: 1.4em;
+        text-transform: uppercase;
+        color: $caption-font-color;
+        // max-width: 10em;
+        padding-top: 0;
+    }
+    
+    .completed-projects__text {
+        display: block;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.68rem;
+        text-align: left;
+        color: $main-light-font-color;
+        // padding: 1.5rem 0px 2.63rem 0px;
+    }
+
+
 }

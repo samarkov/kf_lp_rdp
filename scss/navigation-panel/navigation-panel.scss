@@ -21,7 +21,7 @@
 
 @media screen and (max-width: $mobile-drop-point) {
     .navigation-panel {
-        justify-items: space-between;
+        min-height: 3.56rem;
     }
 
     .navigation-panel--bottom {
