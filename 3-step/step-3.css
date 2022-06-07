@@ -161,7 +161,7 @@ body {
 }
 
 /*стилизация чекбокса взята отсюда https://www.w3docs.com/snippets/scss/how-to-style-a-checkbox-with-css.html*/
-.request-form-aggrement {
+.request-form-agreement {
   display: block;
   position: relative;
   padding-left: 1.69rem;
@@ -172,11 +172,11 @@ body {
   font-size: 0.9rem;
 }
 
-.request-form-aggrement input {
+.request-form-agreement input {
   visibility: hidden;
 }
 
-.request-form-aggrement__checkbox {
+.request-form-agreement__checkbox {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,19 +188,19 @@ body {
 }
 
 /* Specify the background color to be shown when hovering over checkbox */
-.request-form-aggrement:hover input ~ .request-form-aggrement__checkbox {
+.request-form-agreement:hover input ~ .request-form-agreement__checkbox {
   background-color: rgb(227, 184, 115);
   border: solid 1px rgb(227, 184, 115);
   border-radius: 1px;
 }
 
 /* Specify the background color to be shown when checkbox is active */
-.request-form-aggrement input:active ~ .request-form-aggrement__checkbox {
+.request-form-agreement input:active ~ .request-form-agreement__checkbox {
   background-color: white;
 }
 
 /* Specify the background color to be shown when checkbox is checked */
-.request-form-aggrement input:checked ~ .request-form-aggrement__checkbox {
+.request-form-agreement input:checked ~ .request-form-agreement__checkbox {
   background-color: rgb(227, 184, 115);
   border: solid 1px rgb(227, 184, 115);
   border-radius: 1px;
@@ -208,14 +208,14 @@ body {
 
 /* Checkmark to be shown in checkbox */
 /* It is not be shown when not checked */
-.request-form-aggrement__checkbox:after {
+.request-form-agreement__checkbox:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Display checkmark when checked */
-.request-form-aggrement input:checked ~ .request-form-aggrement__checkbox:after {
+.request-form-agreement input:checked ~ .request-form-agreement__checkbox:after {
   display: block;
 }
 
@@ -223,7 +223,7 @@ body {
 /* Rotated the rectangle by 45 degree and 
 showing only two border to make it look
 like a tickmark */
-.request-form-aggrement .request-form-aggrement__checkbox:after {
+.request-form-agreement .request-form-agreement__checkbox:after {
   left: 5px;
   bottom: 3px;
   width: 6px;
@@ -300,13 +300,13 @@ like a tickmark */
   min-width: 20%;
 }
 
-.question-form-aggrement--position {
+.question-form-agreement--position {
   margin-bottom: 3rem;
   margin-top: 1rem;
   align-self: center;
 }
 
-.question-form-aggrement--color {
+.question-form-agreement--color {
   color: #FFFFFF;
 }
 
@@ -367,7 +367,7 @@ like a tickmark */
   width: 82%;
 }
 
-.request-form-aggrement--position {
+.request-form-agreement--position {
   margin-bottom: 2.3rem;
   margin-top: 1rem;
   align-self: center;
