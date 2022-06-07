@@ -14,10 +14,10 @@
         align-self: center;
         width: $mobile-width;
     }
+    body {
+        display: flex;
+        flex-flow: column;
+    }
 }
 
 
-body {
-    display: flex;
-    flex-flow: column;
-}

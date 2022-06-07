@@ -23,7 +23,7 @@
     line-height: 1.4em;
     text-transform: uppercase;
     color: $caption-font-color;
-    max-width: 10em;
+    width: 10em;
     padding-top: 3.3125rem;
 }
 
@@ -60,8 +60,17 @@
     font-size: 0.813rem;
 }
 
-.completed-projects-navigator-image {
-    width: 42.44rem;
+.completed-projects-navigator-image-desktop {
+    width: 679px;
+    height: 482px;
+    background-image: url("../img/image-2.1.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.completed-projects-navigator-image-mobile {
+    display: none;
 }
 
 .completed-projects-navigator-menu {
@@ -124,7 +133,7 @@
         display: flex;
         flex-flow: column;
         column-gap: 0px;
-        align-content: center;
+        align-self: center;
         padding: 2.1rem 1rem 0;
     }
     
@@ -138,30 +147,49 @@
     }
     
     .completed-projects__title {
-        // display: block;
-        // align-self: flex-start;
-        justify-self: center ;
-        // width: 100%;
+        display: block;
+        text-align: center;
+        overflow: auto;
+        padding: 0 20%;
+        max-width: fit-content;
+        max-width: -moz-fit-content;
+        // margin: 0 20%;
         font-family: 'Yeseva One', serif;
-        font-size: 1.67rem;
+        font-size: 1.4rem;
         letter-spacing: -0.07em;
         line-height: 1.4em;
         text-transform: uppercase;
         color: $caption-font-color;
-        // max-width: 10em;
-        padding-top: 0;
     }
     
     .completed-projects__text {
         display: block;
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 400;
-        font-size: 0.875rem;
-        line-height: 1.68rem;
-        text-align: left;
+        font-size: 0.68rem;
+        line-height: 1.3rem;
+        text-align: center;
+        padding: 2rem 2rem;
         color: $main-light-font-color;
         // padding: 1.5rem 0px 2.63rem 0px;
     }
+    .completed-projects-navigator-image-desktop {
+        display: none;
+    }
 
+    .completed-projects-navigator-image-mobile {
+        display: block;
+        width: 340px;
+        height: 241px;
+        
+        background-image: url("../img/cpc-image1.png");
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .completed-projects-navigator-menu {
+        display: none;
+    }
 
 }
