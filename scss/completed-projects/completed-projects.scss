@@ -167,12 +167,36 @@
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 400;
         font-size: 0.68rem;
-        line-height: 1.3rem;
+        line-height: 1.15rem;
         text-align: center;
-        padding: 2rem 2rem;
+        padding: 2rem 1rem 3rem;
         color: $main-light-font-color;
         // padding: 1.5rem 0px 2.63rem 0px;
     }
+
+    .completed-projects-details {
+        padding: 2.3rem 2rem;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .completed-projects-details-item__caption {
+        font-family: 'Yeseva One', serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $caption-font-color;
+    }
+    
+    .completed-projects-details-item__text{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.813rem;
+    }
+    
+
     .completed-projects-navigator-image-desktop {
         display: none;
     }
