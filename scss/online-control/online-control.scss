@@ -41,14 +41,15 @@
 }
 
 .online-control-request-form-submit-controls {
-    display: flex;
-    column-gap: 3.4rem;
-    justify-content: center;
-    margin-top: 5.72rem;
+    display: grid;
+    grid-template-columns: 16rem 20rem 13rem;
+    grid-template-rows: 4rem 6rem;
+    padding: 1rem 22%;
+    align-items: end;
 }
 
-.online-control-request-form-submit-controls__input {
-    min-width: 14.44rem;
+.online-control-request-form-submit-controls__input>.input-field {
+    width: 85%;
 }
 
 .online-control-request-form-submit-controls .input-label {
@@ -56,9 +57,10 @@
 }
 
 .online-control-request-form-agreement--position {
+    grid-column: 2 / 3;
     margin-bottom: 4.75rem;
     margin-top: 2.19rem;
-    align-self: center;
+    align-self: baseline;
 }
 
 .online-control-request-form-submit-controls__submit-button {
@@ -90,16 +92,18 @@
         text-align: center;
         color: $main-light-font-color;
     }
+
     .online-control-request-form-submit-controls {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1rem);
+        align-items: end;
         margin-top: 4.72rem;
         padding: 0% 1rem;
         row-gap: 4rem;
     }
-    
-    .online-control-request-form-submit-controls__input > .input-field {
+
+    .online-control-request-form-submit-controls__input>.input-field {
         min-width: 14.44rem;
         background-color: $background-dark-color;
         border-bottom: 1px solid $main-light-font-color;
@@ -108,27 +112,31 @@
 
     .input-field::placeholder {
         color: $main-light-font-color;
-      }
-      
-    
-    
+    }
+
+
+
     .online-control-request-form-submit-controls .input-label {
         color: $label-mobile-color;
     }
-    
+
     .online-control-request-form-agreement--position {
+        //TODO не сделано положение для мобильной версии
+        grid-row: 3;
         margin-bottom: 4.75rem;
         margin-top: 2.19rem;
-        align-self: center;
+        align-self: baseline;
     }
-    
+
     .online-control-request-form-submit-controls__submit-button {
+        //TODO не сделано положение для мобильной версии
+        grid-row: 4;
         box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
         border-radius: 0;
         height: 3.19rem;
         width: auto;
         padding: 0 1rem;
     }
-    
+
 
 }
