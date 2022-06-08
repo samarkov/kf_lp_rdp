@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: column;
     align-self: center;
-   
+
 }
 
 .online-control-media {
@@ -12,7 +12,7 @@
     flex-flow: column;
     align-self: center;
     position: relative;
-    
+
 }
 
 .online-control-media__player {
@@ -24,13 +24,6 @@
     background-color: aquamarine;
 }
 
-@media screen and (max-width: $mobile-drop-point) {
-    .online-control-media__player {
-        width: 340px;
-        height: 207px;
-    }
-}
-
 .online-control-request-form {
     display: flex;
     flex-flow: column;
@@ -38,13 +31,13 @@
 
 .online-control-request-form-description {
     align-self: center;
-    width: 42.56rem;
+    padding: 0 27%;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 2.32rem;
     text-align: center;
-    color: #363636;
+    color: $gray-font-color;
 }
 
 .online-control-request-form-submit-controls {
@@ -68,9 +61,74 @@
     align-self: center;
 }
 
-.online-control-request-form-submit-controls__submit-button{
+.online-control-request-form-submit-controls__submit-button {
     box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
     border-radius: 0.125rem;
     width: 12.5rem;
     height: 3.19rem;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .online-control-media__player {
+        width: 340px;
+        height: 207px;
+    }
+
+    .online-control-request-form {
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    .online-control-request-form-description {
+        align-self: center;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 0 1rem;
+        font-weight: 400;
+        font-size: 0.68rem;
+        line-height: 1.32rem;
+        text-align: center;
+        color: $main-light-font-color;
+    }
+    .online-control-request-form-submit-controls {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-top: 4.72rem;
+        padding: 0% 1rem;
+        row-gap: 4rem;
+    }
+    
+    .online-control-request-form-submit-controls__input > .input-field {
+        min-width: 14.44rem;
+        background-color: $background-dark-color;
+        border-bottom: 1px solid $main-light-font-color;
+        color: $main-light-font-color;
+    }
+
+    .input-field::placeholder {
+        color: $main-light-font-color;
+      }
+      
+    
+    
+    .online-control-request-form-submit-controls .input-label {
+        color: $label-mobile-color;
+    }
+    
+    .online-control-request-form-agreement--position {
+        margin-bottom: 4.75rem;
+        margin-top: 2.19rem;
+        align-self: center;
+    }
+    
+    .online-control-request-form-submit-controls__submit-button {
+        box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
+        border-radius: 0;
+        height: 3.19rem;
+        width: auto;
+        padding: 0 1rem;
+    }
+    
+
 }

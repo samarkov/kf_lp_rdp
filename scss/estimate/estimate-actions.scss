@@ -1,15 +1,9 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .estimate-project{
     display: flex;
     flex-flow: column;
     margin-bottom: 15rem;
-}
-
-@media screen and (max-width: $mobile-drop-point) {
-    .estimate-project{
-         display: none;
-    }
 }
 
 .estimate-actions{
@@ -83,4 +77,10 @@
     width: 100px;
     height: 100px;
     background-image: url("./../img/Pig.png");
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .estimate-project{
+         display: none;
+    }
 }

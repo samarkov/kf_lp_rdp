@@ -9,18 +9,7 @@
         background-repeat: no-repeat;
     }
 
-    @media screen and (max-width: $mobile-drop-point) {
-        .calc-req-wrapper {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                                url("./../img/tritcr-mob.png");
-            background-blend-mode: multiply;
-            background-size: contain;
-            background-repeat: no-repeat;
-            min-height: 476px;
-        }
-    
-    }
-
+ 
     .completed-projects-and-online-control-background {
         background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1074px, rgba(255, 255, 255, 1) 1074px 100%);
     }
@@ -84,5 +73,18 @@
     .flex-wrapper__background--s4 {
         display: none;
     }
+        
+    .calc-req-wrapper {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                                url("./../img/tritcr-mob.png");
+            background-blend-mode: multiply;
+            background-size: contain;
+            background-repeat: no-repeat;
+            min-height: 476px;
+        }
+    
+        .completed-projects-and-online-control-background {
+            background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1574px, rgba(255, 255, 255, 1) 174px 100%);
+        }
 
 }
