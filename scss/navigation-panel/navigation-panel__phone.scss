@@ -1,0 +1,25 @@
+@import "../common-values";
+
+.navigation-panel__phone {
+    width: 9rem;
+}
+
+.navigation-panel__phone > a {
+    display: block;
+    color: $caption-font-color;
+    padding-left: 2rem;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .navigation-panel__phone {
+        width: 40%;      
+    }
+
+    .navigation-panel__phone > a {
+        color: $main-light-font-color;
+        text-decoration: none;
+        padding-left: 10%;
+        // padding-right: 1.1rem;
+    }
+}

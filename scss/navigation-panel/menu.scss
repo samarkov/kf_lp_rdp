@@ -1,0 +1,15 @@
+@import "../common-values.scss";
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    min-width: 40rem;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .menu {
+        display:none;
+    }
+
+}

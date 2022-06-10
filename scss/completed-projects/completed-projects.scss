@@ -1,0 +1,219 @@
+@import "../common-values";
+
+.completed-projects {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    padding: 6.69rem 8.375rem;
+
+}
+
+.completed-projects-description {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    color:$main-light-font-color;
+}
+
+.completed-projects__title {
+    display: block;
+    font-family: 'Yeseva One', serif;
+    font-size: 1.67rem;
+    letter-spacing: -0.07em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: $caption-font-color;
+    width: 10em;
+    padding-top: 3.3125rem;
+}
+
+.completed-projects__text {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.68rem;
+    text-align: left;
+    color: $main-light-font-color;
+    padding: 1.5rem 0px 2.63rem 0px;
+}
+
+
+.completed-projects-details {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.completed-projects-details-item__caption {
+    font-family: 'Yeseva One', serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $caption-font-color;
+}
+
+.completed-projects-details-item__text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.813rem;
+}
+
+.completed-projects-navigator-image-desktop {
+    width: 679px;
+    height: 482px;
+    background-image: url("../img/image-2.1.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.completed-projects-navigator-image-mobile {
+    display: none;
+}
+
+.completed-projects-navigator-menu {
+    display: flex;
+    flex-flow: row;
+    column-gap: 3.75rem;
+    color: $caption-font-color;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 19px;
+    margin-bottom: 2.7rem;
+}
+
+.completed-projects-navigator-menu li {
+    display: block;
+    padding-bottom: 0.42rem;
+}
+
+.completed-projects-navigator-menu li:hover {
+    cursor: pointer;
+}
+
+.completed-projects-navigator-menu--active {
+    border-bottom: 0.1rem solid $caption-font-color;
+}
+
+.completed-projects-paginator {
+    display: flex;
+    flex-flow: row;
+    margin-top: 5.3rem;
+    column-gap: 1.41rem;
+}
+
+.completed-projects-paginator__page{
+    display: block;
+    width: 1px;
+    height: 1px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.completed-projects-paginator__page--active{
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.completed-projects-paginator__page--image {
+    object-fit: none;
+}
+
+
+@media screen and (max-width: $mobile-drop-point) {
+    .completed-projects-paginator {
+        display: none;
+    }
+
+    .completed-projects {
+        display: flex;
+        flex-flow: column;
+        column-gap: 0px;
+        align-self: center;
+        padding: 2.1rem 1rem 0;
+    }
+    
+    .completed-projects-description {
+        display: flex;
+        flex-flow: column;
+        justify-items:stretch ;
+        // align-content: center;
+        color:$main-light-font-color;
+        justify-content: center;
+    }
+    
+    .completed-projects__title {
+        display: block;
+        text-align: center;
+        overflow: auto;
+        padding: 0 20%;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        // margin: 0 20%;
+        font-family: 'Yeseva One', serif;
+        font-size: 1.4rem;
+        letter-spacing: -0.07em;
+        line-height: 1.4em;
+        text-transform: uppercase;
+        color: $caption-font-color;
+    }
+    
+    .completed-projects__text {
+        display: block;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.68rem;
+        line-height: 1.15rem;
+        text-align: center;
+        padding: 2rem 1rem 3rem;
+        color: $main-light-font-color;
+        // padding: 1.5rem 0px 2.63rem 0px;
+    }
+
+    .completed-projects-details {
+        padding: 2.3rem 2rem;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .completed-projects-details-item__caption {
+        font-family: 'Yeseva One', serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $caption-font-color;
+    }
+    
+    .completed-projects-details-item__text{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.813rem;
+    }
+    
+
+    .completed-projects-navigator-image-desktop {
+        display: none;
+    }
+
+    .completed-projects-navigator-image-mobile {
+        display: block;
+        width: 340px;
+        height: 241px;
+        
+        background-image: url("../img/cpc-image1.png");
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .completed-projects-navigator-menu {
+        display: none;
+    }
+
+}

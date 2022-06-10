@@ -1,0 +1,30 @@
+@import "../common-values";
+
+.navigation-panel {
+    display: flex;
+    background-color: #131313;
+    min-height: 7.6rem;
+    align-items: center;
+    justify-content: space-between;
+    /*Whole navigation-panel elements have the same font family*/
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem
+}
+
+.navigation-panel--bottom {
+    height: 8.32rem;
+}
+
+
+@media screen and (max-width: $mobile-drop-point) {
+    .navigation-panel {
+        min-height: 3.56rem;
+    }
+
+    .navigation-panel--bottom {
+        display: none;
+    }
+}

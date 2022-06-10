@@ -1,0 +1,21 @@
+@import "../common-values.scss";
+
+.button {
+    box-sizing: border-box;
+    position: relative;
+    border: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    height: 3.2em;
+    background-color: $caption-font-color;
+    box-shadow: 0 0.3em  1.25em rgba(227,184,115,0.1);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(236, 155, 24);
+
+}

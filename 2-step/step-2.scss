@@ -1,0 +1,18 @@
+@import "../scss/fonts";
+@import "../scss/background/background";
+@import "../scss/tiles/repair-types";
+@import "../scss/button/button";
+@import "../scss/separator/topic-separator";
+@import "../scss/player/player";
+@import "../scss/online-control/online-control";
+@import "../scss/request-form/request-form";
+@import "../scss/input/input";
+@import "../scss/completed-projects/completed-projects";
+@import "../scss/title/title";
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

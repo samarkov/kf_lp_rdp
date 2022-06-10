@@ -4,7 +4,7 @@
         "name": "Launch Chrome",
         "request": "launch",
         "type": "chrome",
-        "url": "C:/Users/konstantin.samarkov/repos-github.com/kf_lp_rdp/descktop/descktop.html",
+        "url": "C:/Users/konstantin.samarkov/repos-github.com/kf_lp_rdp/index.html",
         "webRoot": "${workspaceFolder}"
     }
     ]

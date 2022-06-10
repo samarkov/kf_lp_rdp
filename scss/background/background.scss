@@ -1,0 +1,89 @@
+@import "../common-values";
+
+
+    .calc-req-wrapper {
+        min-height: 44em;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../img/image-4.3.png");
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+ 
+    .completed-projects-and-online-control-background {
+        background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1074px, rgba(255, 255, 255, 1) 1074px 100%);
+    }
+
+    .flex-wrapper__background--s3 {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.95),
+                rgba(255, 255, 255, 0.95)),
+            url(./../img/skyscrappers-left.png),
+            url(./../img/skyscrappers-right.png),
+
+            linear-gradient(rgba(24, 24, 24, 0.9),
+                rgba(24, 24, 24, 0.72)), url(./../img/skyscrappers-big.png);
+        background-position:
+            left calc(100% - 954px),
+            left calc(100% - 954px),
+            right calc(100% - 954px),
+
+            left bottom,
+            left bottom;
+        background-size:
+            100% 450px,
+            auto,
+            auto,
+
+            100% 955px, 100% 955px;
+        background-repeat: no-repeat;
+    }
+
+    .flex-wrapper__background--s4 {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.95),
+                rgba(255, 255, 255, 0.95)),
+            url(./../img/skyscrappers-left.png),
+            url(./../img/skyscrappers-right.png),
+
+            linear-gradient(rgba(24, 24, 24, 0.9),
+                rgba(24, 24, 24, 0.72)), url(./../img/skyscrappers-big.png);
+        background-position:
+            left calc(100% - 954px),
+            left calc(100% - 954px),
+            right calc(100% - 954px),
+
+            left bottom,
+            left bottom;
+
+        background-size:
+            100% 450px,
+            auto,
+            auto,
+
+            100% 955px, 100% 955px;
+        background-repeat: no-repeat;
+    }
+
+    .estimate-sequence {
+        background-image: url("./../img/image-6.1.png");
+        background-repeat: no-repeat;
+    }
+
+
+@media screen and (max-width: $mobile-drop-point) {
+    .flex-wrapper__background--s4 {
+        background-image:none;
+    }
+        
+    .calc-req-wrapper {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                                url("./../img/tritcr-mob.png");
+            background-blend-mode: multiply;
+            background-size: contain;
+            background-repeat: no-repeat;
+            min-height: 476px;
+        }
+    
+        .completed-projects-and-online-control-background {
+            background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1574px, rgba(255, 255, 255, 1) 174px 100%);
+        }
+}

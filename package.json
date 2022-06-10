@@ -1,0 +1,29 @@
+{
+  "name": "kf_lp_rdp",
+  "version": "1.0.0",
+  "description": "Study project of a web site landing page",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass  ./scss/:./css",
+    "sass-watch": "sass --watch ./scss/:./css",
+    "saas-s2": "sass ./2-step/step-2.scss ./2-step/step-2.css",
+    "saas-s3": "sass ./3-step/step-3.scss ./3-step/step-3.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarkov/kf_lp_rdp.git"
+  },
+  "author": "Konstantin Samarkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samarkov/kf_lp_rdp/issues"
+  },
+  "homepage": "https://github.com/samarkov/kf_lp_rdp#readme",
+  "dependencies": {
+    "npm": "^8.11.0"
+  }
+}
