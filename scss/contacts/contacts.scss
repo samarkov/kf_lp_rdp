@@ -1,4 +1,4 @@
-@import "../common-values.scss";
+@import "../common-values";
 
 .contacts {
     display: flex;
@@ -28,14 +28,36 @@
 }
 
 .contacts__map {
-    padding-bottom: 4.12rem;
-    width: min-content;
+    width: 925px;
+    height: 465px;
+    margin-bottom: 4rem;
     align-self: center;
+    background-image: url("./../img/s3-contacts-map.png");
 }
 
 
 @media screen and (max-width: $mobile-drop-point) {
+
+    .contacts {
+        background-color: $background-dark-color;
+    }
+
     .contacts__map {
-        display: none;     
+        width: 340px;
+        height: 255px;
+        order: 1;
+        background-image: url("./../img/s3-contacts-map-mobile.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+    .contacts__address {
+        order: 2;
+        padding: 1rem;
+    }
+
+    .contacts-social-networks {
+        order: 3;
     }
 }

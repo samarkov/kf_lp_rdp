@@ -3,12 +3,11 @@
 .question-form {
     display: flex;
     flex-flow: column;
-    background-color: #131313;
+    background-color: $background-dark-color;
     align-self:center;
     position: relative;
     margin-top: 8.69rem;
     width: 55.19rem;
-    /* height: 27.81rem; */
 }
 
 .question-request-form__caption {
@@ -82,4 +81,81 @@
     height: 3.19rem;
     align-self: center;
     margin-bottom: 2.1rem;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .question-form {
+        display: flex;
+        flex-flow: column;
+        background-color: $background-dark-color;
+        align-self:center;
+        position: relative;
+        margin-top: -10rem;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .question-request-form__caption {
+
+        font-size: 1.25rem;
+        align-self: center;
+        margin: 14rem 2.3rem 3rem 2.3rem;
+    }
+
+    .question-request-form-controls {
+        display: flex;
+        flex-flow: column;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .question-request-form-controls .input-label:nth-child(1) {
+        order: 1;
+    }
+    
+    .question-request-form-controls .input-label:nth-child(2){
+        order: 2;
+    }
+    
+    .question-request-form-controls .input-label:nth-child(3){
+        order: 3;
+    }
+    
+    
+    .question-request-form-controls .input-field {
+        background-color: $background-dark-color;
+        border-bottom: 1px solid $main-light-font-color;
+        color: $main-light-font-color;
+        width: 100%;
+      
+    }
+    
+    .question-request-form-controls .input-field::placeholder {
+        color: $main-light-font-color;
+    }
+    
+    .question-request-form-controls .input-label {
+        color: rgba(255, 255, 255, 0.5);
+        align-self: center;
+        min-width:98%;
+    }
+    
+    .question-form-agreement--position {
+        margin-bottom: 4rem;
+        margin-top: 0rem;
+        align-self: center;
+    }
+    
+    .question-form-agreement--color {
+        color: $main-light-font-color;
+    }
+    
+    .question-form__submit-button{
+        box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.1);
+        border-radius: 0rem;
+        width: 90%;
+        height: 3.18rem;
+        align-self: center;
+        margin-bottom: 2.1rem;
+    }
+    
 }
