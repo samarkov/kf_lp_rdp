@@ -71,7 +71,7 @@
 
 @media screen and (max-width: $mobile-drop-point) {
     .flex-wrapper__background--s4 {
-        display: none;
+        background-image:none;
     }
         
     .calc-req-wrapper {
@@ -86,5 +86,4 @@
         .completed-projects-and-online-control-background {
             background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1574px, rgba(255, 255, 255, 1) 174px 100%);
         }
-
 }
