@@ -1,3 +1,5 @@
+@import "../common-values";
+
 .topics-separator {
     display: flex; 
     flex-flow: column;
@@ -34,4 +36,10 @@
 
 .topic-separator__caption--black {
     color: black;
+}
+
+@media screen and (min-width:$wide-screen-drop-point) {
+    .separate-online-control {
+        display: none;
+    }    
 }

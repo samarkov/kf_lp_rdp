@@ -20,4 +20,11 @@
     }
 }
 
-
+@media screen and (min-width:$wide-screen-drop-point) {
+    .flex-wrapper {
+        display: flex;
+        flex-flow: column;
+        align-self: center;
+        width: $width-4k;  
+    }    
+}

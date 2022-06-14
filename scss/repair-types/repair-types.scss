@@ -139,3 +139,8 @@ ul {
     }
     
 }
+@media screen and (min-width: $wide-screen-drop-point) {
+    .repair-types {
+        display: none;
+    }
+}
