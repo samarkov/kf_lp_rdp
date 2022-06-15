@@ -87,3 +87,15 @@
             background-image: linear-gradient(rgba(19, 19, 19, 1) 0 1574px, rgba(255, 255, 255, 1) 174px 100%);
         }
 }
+
+@media screen and (min-width: $wide-screen-drop-point) {
+    .flex-wrapper .flex-wrapper__background--s4 {
+        display: none;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+}
+

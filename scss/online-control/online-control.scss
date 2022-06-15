@@ -146,6 +146,11 @@
     .online-control-request-form-submit-controls .input-label {
         color: $label-mobile-color;
     }
+}
 
+@media screen and (min-width: $wide-screen-drop-point) {
+    .online-control {
+        display: none;
+    }
 
 }

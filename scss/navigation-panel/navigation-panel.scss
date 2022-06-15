@@ -28,3 +28,10 @@
         display: none;
     }
 }
+
+@media screen and (min-width:$wide-screen-drop-point) {
+    .navigation-panel {
+        justify-content: center;
+    }  
+
+}

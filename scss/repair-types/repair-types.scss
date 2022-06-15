@@ -1,0 +1,148 @@
+@import "../common-values";
+
+.repair-types {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1.88rem;
+    justify-content: center;
+}
+
+.repair-type {
+    position: relative;
+    display:flex;
+    flex-flow: column;
+    width: 24rem;
+    box-sizing: border-box;
+}
+
+.repair-type__image {
+    width: 24rem;
+}
+
+.repair-type-description {
+    position: relative;
+    top: -7.94rem;
+    left: 1.94rem;
+    width: 20.625rem;
+    height: 17.875rem;
+    background-color:#FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.repair-type-description__caption {
+    font-family: 'Yeseva One', 'serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    display: block;
+    padding: 1.56rem 0 13px 1.94rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.repair-type-description__list {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.69rem;
+    list-style-position:inside;
+    margin: 0 0 0 1.94rem;
+    padding: 0;
+}
+
+.repair-type_price-button {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: white; 
+    line-height: 1.56rem;
+    text-transform: uppercase;
+    border: none;
+    background: $caption-font-color;
+    box-shadow: 0.31rem 0.31rem 0.625rem rgba(227, 184, 115, 0.3);
+    padding: 1.06rem;
+}
+
+@media screen and (max-width: $mobile-drop-point) {
+    .repair-type {
+        position: relative;
+        display:flex;
+        flex-flow: column;
+        width: 21.25rem;
+        box-sizing: border-box;
+    }
+    .repair-type:nth-child(2) {
+        margin-top: -4rem;
+    }
+
+    .repair-type:nth-child(3) {
+        margin-top: -4rem;
+    }
+
+    .repair-type__image {
+        width: auto;
+        height: 365px;
+    }
+
+    .repair-type-description {
+        position: relative;
+        top: -9rem;
+        left: 0;
+        width: 16.85rem;
+        height: 15rem;
+        background-color:#FFFFFF;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    }
+
+    .repair-type-description__caption {
+        font-family: 'Yeseva One', 'serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.93rem;
+        display: block;
+        padding: 1.56rem 0 13px 1.5rem;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .repair-type-description__list {
+        font-family: 'Nunito Sans', 'sans-serif';
+        font-style: normal;
+        color: #959595;
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        list-style: disc;
+        margin: 0 0 0 2.5rem;
+        padding: 0;
+    }
+
+    .repair-type_price-button {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9rem;
+        color:$main-light-font-color; 
+        line-height: 1rem;
+        text-transform: uppercase;
+        border: none;
+        background: $caption-font-color;
+        box-shadow: 0.31rem 0.31rem 0.625rem rgba(227, 184, 115, 0.3);
+        padding:  0.7rem 1.2rem;
+        margin-top: 1rem;
+    }
+    
+}
+@media screen and (min-width: $wide-screen-drop-point) {
+    .repair-types {
+        display: none;
+    }
+}

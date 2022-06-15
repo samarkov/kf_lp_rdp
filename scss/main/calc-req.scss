@@ -28,9 +28,10 @@
     font-weight: 400;
     font-size: 1.375em;
     line-height: 1.56em;
-    text-align:left;
+    text-align: left;
     color: $main-light-font-color;
 }
+
 .calc-req-actions {
     display: flex;
     align-items: start;
@@ -45,9 +46,9 @@
     font-family: 'Nunito Sans', sans-serif;
     color: $button-font-color;
 }
+
 .calc-req__button:hover {
     cursor: pointer;
-    
 }
 
 .calc-req__button--cost {
@@ -56,7 +57,7 @@
     min-width: 18em;
     background-color: $caption-font-color;
     border-radius: 0.125em;
-    box-shadow: 0 0.3em  0.9em rgba(227,184,115,0.3);
+    box-shadow: 0 0.3em 0.9em rgba(227, 184, 115, 0.3);
 }
 
 .calc-req__button--appl {
@@ -73,12 +74,9 @@
         margin-top: 5.3rem;
         margin-left: 1rem;
         position: static;
-        // justify-self: center;
-    }  
+    }
 
     .calc-req__caption {
-        
-        // margin-left: 1rem;
         font-family: 'Yeseva One', 'serif';
         font-style: normal;
         font-weight: normal;
@@ -91,24 +89,24 @@
         display: block;
         font-size: 0.875rem;
         line-height: 1.18rem;
-        text-align:left;
+        text-align: left;
         color: $main-light-font-color;
     }
+
     .calc-req-actions {
         display: flex;
         flex-flow: column;
     }
-    
+
     .calc-req__button--cost {
         border: 0;
         margin: 0.8rem 0;
-        // min-width: 00%;
         width: calc(100% - 1rem);
         background-color: $caption-font-color;
         border-radius: 0.125em;
-        box-shadow: 0 0.3em  0.9em rgba(227,184,115,0.3);
+        box-shadow: 0 0.3em 0.9em rgba(227, 184, 115, 0.3);
     }
-    
+
     .calc-req__button--appl {
         margin: 0.8rem 0;
         width: calc(100% - 1rem);
@@ -116,5 +114,12 @@
         border: 1px solid #FFFFFF;
         border-radius: 0.125em;
     }
-    
 }
+
+@media screen and (min-width:$wide-screen-drop-point) {
+    .calc-req {
+        position: absolute;
+        margin-left: 41rem;
+    }
+}
+
