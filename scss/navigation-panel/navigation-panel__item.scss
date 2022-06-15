@@ -2,7 +2,6 @@
 
 .navigation-panel__item {
     display: block;
-    // justify-self: start;
     color: $caption-font-color;
     width: auto;
     margin-left: 6rem;
@@ -15,4 +14,10 @@
         width: 60%;
     }
 
+}
+
+@media screen and (min-width:$wide-screen-drop-point) {
+    .navigation-panel__item  {
+        padding-right: 5rem;
+    }  
 }

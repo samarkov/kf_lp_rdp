@@ -118,3 +118,9 @@
     }
     
 }
+@media screen and (min-width:$wide-screen-drop-point) {
+    .calc-req {
+        position: absolute;
+        margin-left: 41rem;
+    }    
+}

@@ -12,7 +12,7 @@
     display: flex;
     flex-flow: column;
     justify-items: center;
-    color:$main-light-font-color;
+    color: $main-light-font-color;
 }
 
 .completed-projects__title {
@@ -54,7 +54,7 @@
     color: $caption-font-color;
 }
 
-.completed-projects-details-item__text{
+.completed-projects-details-item__text {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     font-size: 0.813rem;
@@ -107,7 +107,7 @@
     column-gap: 1.41rem;
 }
 
-.completed-projects-paginator__page{
+.completed-projects-paginator__page {
     display: block;
     width: 1px;
     height: 1px;
@@ -115,7 +115,7 @@
     border-radius: 5px;
 }
 
-.completed-projects-paginator__page--active{
+.completed-projects-paginator__page--active {
     border-color: rgba(255, 255, 255, 1);
 }
 
@@ -136,16 +136,16 @@
         align-self: center;
         padding: 2.1rem 1rem 0;
     }
-    
+
     .completed-projects-description {
         display: flex;
         flex-flow: column;
-        justify-items:stretch ;
+        justify-items: stretch;
         // align-content: center;
-        color:$main-light-font-color;
+        color: $main-light-font-color;
         justify-content: center;
     }
-    
+
     .completed-projects__title {
         display: block;
         text-align: center;
@@ -161,7 +161,7 @@
         text-transform: uppercase;
         color: $caption-font-color;
     }
-    
+
     .completed-projects__text {
         display: block;
         font-family: 'Nunito Sans', sans-serif;
@@ -189,13 +189,13 @@
         text-transform: uppercase;
         color: $caption-font-color;
     }
-    
-    .completed-projects-details-item__text{
+
+    .completed-projects-details-item__text {
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 400;
         font-size: 0.813rem;
     }
-    
+
 
     .completed-projects-navigator-image-desktop {
         display: none;
@@ -205,7 +205,7 @@
         display: block;
         width: 340px;
         height: 241px;
-        
+
         background-image: url("../img/cpc-image1.png");
         background-blend-mode: multiply;
         background-size: cover;
@@ -216,4 +216,15 @@
         display: none;
     }
 
+}
+
+
+@media screen and (min-width:$wide-screen-drop-point) {
+
+    .completed-projects {
+        column-gap: 50px;
+        justify-content: center;
+        padding: 7rem 41rem;
+
+    }
 }
