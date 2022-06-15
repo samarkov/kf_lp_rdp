@@ -3,6 +3,8 @@
 
 There is a study project of front-end developing. There is implemetation a simple static landing page of non-existing site.
 --
+перд запуском выполнить обработку препроцессором SASS   npm run sass
+--
 index.html - полный вариант задания с адаптивным дизайном
 --
 3-step/step-3.html - третий этап
