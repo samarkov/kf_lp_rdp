@@ -115,6 +115,7 @@
     border-radius: 5px;
 }
 
+
 .completed-projects-paginator__page--active {
     border-color: rgba(255, 255, 255, 1);
 }
@@ -193,7 +194,6 @@
         font-size: 0.813rem;
     }
 
-
     .completed-projects-navigator-image-desktop {
         display: none;
     }
@@ -202,7 +202,6 @@
         display: block;
         width: 340px;
         height: 241px;
-
         background-image: url("../img/cpc-image1.png");
         background-blend-mode: multiply;
         background-size: cover;
@@ -212,9 +211,7 @@
     .completed-projects-navigator-menu {
         display: none;
     }
-
 }
-
 
 @media screen and (min-width:$wide-screen-drop-point) {
 
