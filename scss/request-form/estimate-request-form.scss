@@ -4,7 +4,7 @@
     margin-top: 3.69rem;
     margin-right: 6.25rem;
     background: #131313;
-    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);   
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
     color: rgba(255, 255, 255, 1);
     width: 31.625rem;
     height: 31.81rem;
@@ -21,6 +21,7 @@
     max-width: 16rem;
     text-align: center;
 }
+
 .estimate-request-form-submit-controls {
     display: flex;
     flex-flow: column;
@@ -32,7 +33,7 @@
     background-color: #131313;
     border-color: rgba(255, 255, 255, 0.15);
     width: 100%;
-  
+
 }
 
 .estimate-request-form .input-field::placeholder {
@@ -42,8 +43,7 @@
 .estimate-request-form .input-label {
     color: rgba(255, 255, 255, 0.5);
     align-self: center;
-    /* padding: 0px 0px 49px 0; */
-    width: 82%; 
+    width: 82%;
 }
 
 .request-form-agreement--position {
@@ -53,7 +53,7 @@
     width: 82%;
 }
 
-.estimate-request-form__submit-button{
+.estimate-request-form__submit-button {
     box-shadow: 0px 0.94rem 0.94rem rgba(227, 184, 115, 0.15);
     border-radius: 0rem;
     width: 13.31rem;
@@ -61,4 +61,3 @@
     align-self: flex-end;
     margin-right: 9%;
 }
-

@@ -157,10 +157,6 @@ ul {
   color: black;
 }
 
-/* .online-control {
-    display: flex;
-    flex-flow: column;
-} */
 .online-control-player__play-button {
   position: absolute;
   width: 100%;

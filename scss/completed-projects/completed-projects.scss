@@ -141,7 +141,6 @@
         display: flex;
         flex-flow: column;
         justify-items: stretch;
-        // align-content: center;
         color: $main-light-font-color;
         justify-content: center;
     }
@@ -153,7 +152,6 @@
         padding: 0 20%;
         max-width: -moz-fit-content;
         max-width: fit-content;
-        // margin: 0 20%;
         font-family: 'Yeseva One', serif;
         font-size: 1.4rem;
         letter-spacing: -0.07em;
@@ -171,7 +169,6 @@
         text-align: center;
         padding: 2rem 1rem 3rem;
         color: $main-light-font-color;
-        // padding: 1.5rem 0px 2.63rem 0px;
     }
 
     .completed-projects-details {
